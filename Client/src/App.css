@@ -1,0 +1,41 @@
+.active{
+    color: rgb(21, 182, 21) !important;
+}
+/* ---------------------------------Register Page CSS---------------------- */
+.main_container{
+    /* box-shadow: 1px 2px 8px rgba(47, 47, 47, 0.907); */
+    /* border: 1px solid lightgray; */
+    max-width: 400px;
+}
+.registerInput{
+    outline: none;
+    transition: 0.3s ease-in-out;
+    /* background:rgb(210, 209, 208); */
+    /* box-shadow: 1px 0.5px 6px gray; */
+    border: 1px solid lightgray;
+    &:hover{
+        box-shadow: 0px 1px 3px rgba(30, 143, 255, 0.821);
+    }
+}
+.btn{
+    background-color: rgb(133, 192, 252);
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 3px 10px gray;
+}
+.btn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+/* ------------------------------Home Page CSS-------------------------- */
+.Container{
+    width: 100%;
+    height: 500px;
+    background-image: url('../public/HomeImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
